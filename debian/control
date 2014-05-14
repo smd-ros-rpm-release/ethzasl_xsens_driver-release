@@ -1,0 +1,12 @@
+Source: ros-hydro-xsens-driver
+Section: misc
+Priority: extra
+Maintainer: Francis Colas <francis.colas@mavt.ethz.ch>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-diagnostic-msgs, ros-hydro-geometry-msgs, ros-hydro-gps-common, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-xsens-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-msgs, ros-hydro-geometry-msgs, ros-hydro-gps-common, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Description: ROS Driver for XSens MT/MTi/MTi-G devices.
