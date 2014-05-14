@@ -1,0 +1,28 @@
+ros-indigo-xsens-driver (1.0.3-0trusty) trusty; urgency=high
+
+  * Inclusion of launch file
+  * Additions and fixes from PAL robotics
+  * Add local frame conversion for calibrated imu data (acc, gyr, mag)
+  * Contributors: Enrique Fernandez, Francis Colas, Paul Mathieu, Sam Pfeiffer
+
+ -- Francis Colas <francis.colas@mavt.ethz.ch>  Tue, 13 May 2014 22:00:00 -0000
+
+ros-indigo-xsens-driver (1.0.2-0trusty) trusty; urgency=high
+
+  * catkinized
+  * experimental support of mark 4 IMUs
+  * fixed scaling in DOP values
+  * adding publisher for full data as a string
+  * relative topic names
+
+ -- Francis Colas <francis.colas@mavt.ethz.ch>  Mon, 03 Mar 2014 23:00:00 -0000
+
+ros-indigo-xsens-driver (1.0.1-0trusty) trusty; urgency=high
+
+  * minor improvements
+  * naming cleanup
+  * Contributors: Benjamin Hitov, Francis Colas, Nikolaus Demmel, Stéphane Magnenat, fcolas
+
+ -- Francis Colas <francis.colas@mavt.ethz.ch>  Sun, 26 Aug 2012 22:00:00 -0000
+
+
